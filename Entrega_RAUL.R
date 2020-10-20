@@ -88,7 +88,7 @@ dat_test = dat_test %>% mutate(management_groupu = ifelse (management_group == '
 dat_test = dat_test %>% mutate(management_groupg = ifelse (management_group == 'unknown', 1, 0)) 
 
 ######################################
-#### Creación de variables adicionales
+#### CreaciÃ³n de variables adicionales
 ######################################
 
 ### Registro del pozo.
@@ -241,11 +241,11 @@ my_mod2 <- ranger(
 
 my_mod2$confusion.matrix
 
-##EL MODELO QUE ESTA EN EL FORO Y NO ME FUNCIONA.
+##
 
 my_mod12 <-  
-  # a pesar de la alta correlación o de existencia de 
-  # variables iguales el modelo da mejores resultados incluyéndolas
+  # a pesar de la alta correlaciÃ³n o de existencia de 
+  # variables iguales el modelo da mejores resultados incluyÃ©ndolas
   
   ranger(as.factor(status_group) ~  
            amount_tsh  +longitud_ok + latitude + 
