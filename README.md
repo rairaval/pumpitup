@@ -1,5 +1,7 @@
 # pumpitup
 Pump it Up: Data Mining the Water Table 
+
+### Join the competition.
 https://www.drivendata.org/competitions/7/pump-it-up-data-mining-the-water-table/
 
 Can you predict which water pumps are faulty?
